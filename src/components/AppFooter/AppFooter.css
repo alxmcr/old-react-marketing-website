@@ -1,0 +1,12 @@
+footer {
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer__icon {
+    margin: 5px;
+}
