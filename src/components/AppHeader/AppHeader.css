@@ -1,3 +1,25 @@
-.hello {
-    font-size: 100px;
+header {
+    align-items: center;
+    background-image: url(https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 340px;
+    justify-content: center;
+}
+
+.header__spotlight--black {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.header__spotlight--white {
+    padding: 10px;
+    background-color: gray;
+    color: white;
+}
+
+.header__title {
+    margin: 0;
 }
