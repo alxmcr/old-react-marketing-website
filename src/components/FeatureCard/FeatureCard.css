@@ -7,6 +7,10 @@
     justify-content: center;
 }
 
+.feature__body {
+    height: 115px;
+}
+
 .feature__button{
     background-color: black;
     border-radius: 5px;
@@ -18,10 +22,20 @@
     width: 100%;
 }
 
+.feature__button:hover{
+    background-color: rgb(252, 192, 207);
+    color: black;
+}
+
 .feature__image {
     border-radius: 5px;
     display: block;
+    height: 180px;
     width: 100%;
+}
+
+.feature__title {
+    color: rgb(130, 201, 195);
 }
 
 .feature__title, .feature__description {
