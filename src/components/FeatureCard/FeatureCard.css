@@ -1,0 +1,29 @@
+.feature{
+    padding: 10px;
+}
+
+.feature__actions {
+    display: flex;
+    justify-content: center;
+}
+
+.feature__button{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+
+.feature__image {
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+}
+
+.feature__title, .feature__description {
+    text-align: center;
+}
