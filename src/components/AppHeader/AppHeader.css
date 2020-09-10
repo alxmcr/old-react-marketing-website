@@ -21,5 +21,17 @@ header {
 }
 
 .header__title {
+    display: flex;
+    font-size: 2.5em;
     margin: 0;
+}
+
+/* // Smallest device */
+
+@media (min-width: 100px) and (max-width: 575px) {
+    .header__title {
+        display: flex;
+        font-size: 1.5em;
+        margin: 0;
+    }
 }
