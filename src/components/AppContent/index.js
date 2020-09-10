@@ -1,8 +1,9 @@
 import React from 'react';
 import './AppContent.css'
+import MainContent from '../MainContent';
 
 export default function AppContent() {
     return <>
-        <span class="content">Contenido</span>
+       <MainContent />
     </>
 }
