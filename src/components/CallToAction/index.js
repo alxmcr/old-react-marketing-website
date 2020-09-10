@@ -1,7 +1,9 @@
 import React from 'react'
+import FormRegister from '../FormRegister'
 
 export default function CallToAction(){
     return <main>
-        Here _ call to action
+        <h1>Register</h1>
+        <FormRegister />
     </main>
 }
