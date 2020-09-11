@@ -73,8 +73,8 @@ export default function FormRegister() {
                 onChange={handleChangePassword} />
         </div>
         <div className="register__actions">
-            <button className="register__button" type="submit" disabled={isDisabledSubmit} onClick={handleSubmit}>Register</button>
-            <button className="register__button" type="reset" onClick={handleReset}>Reset</button>
+            <button className="register__button register__button--success" type="submit" disabled={isDisabledSubmit} onClick={handleSubmit}>Register</button>
+            <button className="register__button register__button--reset" type="reset" onClick={handleReset}>Reset</button>
         </div>
     </form>
 }
