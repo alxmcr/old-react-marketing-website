@@ -1,37 +1,97 @@
 header {
-    align-items: center;
     background-image: url(https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
-    height: 340px;
+    flex-direction: column;
+    height: 350px;
     justify-content: center;
+    padding: 10px;
 }
 
-.header__spotlight--black {
+.header__actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.header__link {
+    border-radius: 5px;
+    color: black;
+    display: block;
+    font-size: 16px;
+    margin: 5px 0;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.header__link:hover {
+    transform: scale(1.1);
+}
+
+.header__link--info {
+    background-color: rgb(42, 103, 196);
+    color: white;
+}
+
+.header__link--success {
     background-color: black;
     color: white;
+}
+
+.header__spotlight {
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5em;
+    margin: 0;
+    text-align: center;
+}
+
+.spotlight__text {
+    border-radius: 5px;
+    display: block;
     padding: 10px;
 }
 
-.header__spotlight--white {
-    padding: 10px;
+.spotlight__text--black {
+    background-color: black;
+    color: white;
+}
+
+.spotlight__text--white {
     background-color: gray;
     color: white;
 }
 
-.header__title {
-    display: flex;
-    font-size: 2.5em;
-    margin: 0;
-}
+/* // Small devices (landscape phones, 576px and up) */
 
-/* // Smallest device */
+@media (min-width: 576px) {}
 
-@media (min-width: 100px) and (max-width: 575px) {
-    .header__title {
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    header {
+        padding: 0;
+    }
+
+    .header__spotlight, .header__actions {
+        margin: 0 auto;
+    }
+    .header__actions, .header__spotlight {
         display: flex;
-        font-size: 1.5em;
-        margin: 0;
+        flex-direction: row;
+    }
+    .header__actions {
+        margin-top: 60px;
+    }
+    .spotlight__text{
+        border-radius: 0;
+    }
+
+    .header__link{
+        margin-right: 5px;
+        margin-left: 5px;
     }
 }
