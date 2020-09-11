@@ -11,7 +11,7 @@ export default function FeatureCard({ id, title, description, image }) {
             <p className="feature__description">{description}</p>
         </div>
         <div className="feature__actions">
-            <a className="feature__button" href="#">See more</a>
+            <a className="feature__button" href="#" onClick="">See more</a>
         </div>
     </div>
 }
