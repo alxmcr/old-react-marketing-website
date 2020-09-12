@@ -9,11 +9,11 @@ Create a web app to offer any product.
 
 ### Desktop
 
-
+![Universal-Headphones-Desktop](https://raw.githubusercontent.com/alxmcr/react-marketing-website/master/screenshoots/desktop/universal-headphones-desktop.png)
 
 ### Mobile
 
-
+![Universal-Headphones-Mobile](https://raw.githubusercontent.com/alxmcr/react-marketing-website/master/screenshoots/mobile/universal-headphones-mobile.png)
 
 ## Stack
 - NodeJS
