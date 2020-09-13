@@ -1,12 +1,29 @@
 footer {
-    background-color: gold;
-    display: flex;
     align-items: center;
+    background-color: gold;
+    color: black;
+    display: flex;
+    flex-direction: column;
     height: 50px;
-    text-align: center;
     justify-content: center;
+    text-align: center;
 }
 
 .footer__icon {
     margin: 5px;
+}
+
+.footer__link {
+    text-decoration: none;
+}
+
+.footer__row--repository:hover {
+    border-bottom: 1px solid gold;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.footer__link{
+    color: black;
 }
